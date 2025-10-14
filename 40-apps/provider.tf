@@ -8,7 +8,7 @@ terraform {
 
 backend "s3" {
   bucket = "expense-terraform-teju"
-  key   = "expense-vpcc"
+  key   = "expense-apps"
   region = "us-east-1"
   dynamodb_table = "expense_locking"
 }
